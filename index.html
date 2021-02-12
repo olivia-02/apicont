@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form id="form">
+		Nickname:
+		<input type="text" id="nickname" />
+		<br />
+		<br />
+		Message:
+		<input type="text" id="message" />
+		<input type="submit" />
+	  </form>
+	  <ul id="chat" style="list-style: none;"></ul>
+	<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-firestore.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBCjuS_FZZVjtOlRHdPl8Gc06jMDKVu9SQ",
+    authDomain: "wddm-olivia02.firebaseapp.com",
+    projectId: "wddm-olivia02",
+    storageBucket: "wddm-olivia02.appspot.com",
+    messagingSenderId: "1042953094881",
+    appId: "1:1042953094881:web:2c0efe9c1480cf672699a0",
+    measurementId: "G-1SQRYX0LNJ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="script.js"></script>
+</body>
+</html>
